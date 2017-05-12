@@ -118,9 +118,9 @@ namespace WebSocketsCmd
                     clientThread.IsBackground = false;
 
                     // to enable ssl change the port to 443 in the settings file and use the wss schema below
-                    // clientThread.Start("wss://localhost/chat");
+                     clientThread.Start("wss://localhost/chat");
                     
-                    clientThread.Start("ws://localhost/chat");
+                    //clientThread.Start("ws://localhost/chat");
                     Console.ReadKey();
                 }
             }

@@ -5,14 +5,14 @@
     <Setting Name="WebRoot" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
-    <Setting Name="Port" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">80</Value>
-    </Setting>
     <Setting Name="CertificateFile" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
     <Setting Name="CertificatePassword" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Port" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">443</Value>
     </Setting>
   </Settings>
 </SettingsFile>
