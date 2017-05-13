@@ -61,7 +61,7 @@ namespace WebSocketsCmd.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("443")]
+        [global::System.Configuration.DefaultSettingValueAttribute("3000")]
         public int Port {
             get {
                 return ((int)(this["Port"]));
